@@ -1,0 +1,36 @@
+To add new Book:
+
+{
+  "title": "Harry Potter"
+  "author": "J K Rowling"
+}
+
+
+
+
+To register a new user:
+
+{
+  "name": "username"
+  "email": "username@gmail.com"
+  "password": "password"
+  "roles": "user"    
+  "phone": "9999999999"
+}
+
+
+
+To Login as a user:
+
+{
+  "username": "username"
+  "password": "password"
+}
+
+
+To Login as a admin:
+
+{
+  "username": "username"
+  "password": "password"
+}

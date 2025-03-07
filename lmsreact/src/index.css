@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+
+nav {
+  background: #eee;
+  padding: 10px;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+/* The wrapper for the entire app */
+.App-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* The content area that will expand */
+.Content {
+  flex: 1;
+}
+
+/* Ensure html, body, and root take full viewport height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

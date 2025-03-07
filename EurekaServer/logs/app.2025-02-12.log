@@ -1,0 +1,876 @@
+2025-02-12 09:05:27 [main] INFO  c.e.demo.EurekaServerApplication - Starting EurekaServerApplication using Java 21.0.5 with PID 24708 (C:\Users\2380230\git\repository8\EurekaServer\target\classes started by 2380230 in C:\Users\2380230\git\repository8\EurekaServer)
+2025-02-12 09:05:27 [main] DEBUG c.e.demo.EurekaServerApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 09:05:27 [main] INFO  c.e.demo.EurekaServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 09:05:30 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=78ac7b21-bec9-3f11-b9d5-811c6e056ee9
+2025-02-12 09:05:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8761 (http)
+2025-02-12 09:05:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2025-02-12 09:05:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 09:05:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 09:05:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 09:05:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3025 ms
+2025-02-12 09:05:32 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2025-02-12 09:05:32 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2025-02-12 09:05:33 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2025-02-12 09:05:33 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2025-02-12 09:05:33 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-12 09:05:34 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-12 09:05:34 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-02-12 09:05:34 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-02-12 09:05:34 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2025-02-12 09:05:34 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1739331334647 with initial instances count: 0
+2025-02-12 09:05:34 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2025-02-12 09:05:34 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2025-02-12 09:05:34 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2025-02-12 09:05:34 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2025-02-12 09:05:34 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2025-02-12 09:05:34 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2025-02-12 09:05:34 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2025-02-12 09:05:34 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2025-02-12 09:05:34 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2025-02-12 09:05:34 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12 09:05:35 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKASERVER with eureka with status UP
+2025-02-12 09:05:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2025-02-12 09:05:35 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2025-02-12 09:05:35 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2025-02-12 09:05:35 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2025-02-12 09:05:35 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2025-02-12 09:05:35 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2025-02-12 09:05:35 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2025-02-12 09:05:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8761 (http) with context path '/'
+2025-02-12 09:05:35 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2025-02-12 09:05:35 [main] INFO  c.e.demo.EurekaServerApplication - Started EurekaServerApplication in 8.21 seconds (process running for 10.456)
+2025-02-12 09:05:35 [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 09:05:35 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 09:05:35 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-12 09:05:45 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 09:05:46 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 09:06:02 [http-nio-8761-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: APIGATEWAY - LTIN560762.cts.com:apigateway:8084
+2025-02-12 09:06:02 [http-nio-8761-exec-5] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): APIGATEWAY - LTIN560762.cts.com:apigateway:8084
+2025-02-12 09:06:02 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=false)
+2025-02-12 09:06:02 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=false)
+2025-02-12 09:06:03 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=true)
+2025-02-12 09:06:08 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=false)
+2025-02-12 09:06:09 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=true)
+2025-02-12 09:06:11 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:06:12 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:06:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:07:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2025-02-12 09:08:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2025-02-12 09:09:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2025-02-12 09:10:31 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:10:31 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:10:34 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:10:34 [http-nio-8761-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:10:34 [http-nio-8761-exec-1] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:10:34 [TaskBatchingWorker-target_localhost-17] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:10:34 [TaskBatchingWorker-target_localhost-17] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:10:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2025-02-12 09:10:37 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:10:38 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:11:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:12:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2025-02-12 09:13:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2025-02-12 09:14:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2025-02-12 09:15:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2025-02-12 09:16:13 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:16:14 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:16:16 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:16:17 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:16:17 [http-nio-8761-exec-4] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:16:17 [TaskBatchingWorker-target_localhost-5] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:16:17 [TaskBatchingWorker-target_localhost-5] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:16:20 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:16:20 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:16:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:17:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:18:24 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:18:25 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:18:27 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:18:28 [http-nio-8761-exec-6] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:18:28 [http-nio-8761-exec-6] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:18:28 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:18:28 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:18:30 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:18:31 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:18:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2025-02-12 09:19:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:19:54 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:19:55 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:19:57 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:19:58 [http-nio-8761-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:19:58 [http-nio-8761-exec-5] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:19:58 [TaskBatchingWorker-target_localhost-14] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:19:58 [TaskBatchingWorker-target_localhost-14] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:20:01 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:20:01 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:20:34 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 8
+2025-02-12 09:20:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:21:30 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:21:30 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:21:33 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:21:33 [http-nio-8761-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:21:33 [http-nio-8761-exec-5] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:21:33 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:21:33 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:21:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:21:36 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:21:36 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:22:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:23:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:24:16 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:24:16 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:24:19 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:24:20 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:24:20 [http-nio-8761-exec-4] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:24:20 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:24:20 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:24:22 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:24:23 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:24:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:24:38 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:24:39 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:24:41 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:24:42 [http-nio-8761-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:24:42 [http-nio-8761-exec-5] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:24:42 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:24:42 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:24:44 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:24:44 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:25:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2025-02-12 09:26:13 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:26:14 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:26:16 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:26:16 [http-nio-8761-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:26:16 [http-nio-8761-exec-1] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:26:16 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:26:16 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:26:32 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:26:32 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:26:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:27:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:28:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:28:49 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:28:49 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:28:52 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:28:52 [http-nio-8761-exec-10] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:28:52 [http-nio-8761-exec-10] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:28:52 [TaskBatchingWorker-target_localhost-9] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:28:52 [TaskBatchingWorker-target_localhost-9] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:28:55 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:28:55 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:29:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2025-02-12 09:30:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2025-02-12 09:30:40 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:30:40 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:30:41 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:30:41 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=true)
+2025-02-12 09:30:43 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:30:44 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:31:30 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:31:30 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:31:33 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:31:33 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:31:33 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:31:33 [TaskBatchingWorker-target_localhost-11] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:31:33 [TaskBatchingWorker-target_localhost-11] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:31:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:31:35 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:31:36 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:32:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 09:32:55 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:32:56 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 09:32:58 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 09:32:59 [http-nio-8761-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 09:32:59 [http-nio-8761-exec-5] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 09:32:59 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 09:32:59 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 09:33:01 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 09:33:02 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 09:33:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2025-02-12 09:34:21 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 09:34:21 [RMI TCP Connection(41)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-02-12 09:34:21 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 09:34:21 [RMI TCP Connection(41)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKASERVER with eureka with status DOWN
+2025-02-12 09:34:21 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=false)
+2025-02-12 09:34:21 [RMI TCP Connection(41)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12 09:34:21 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8761"]
+2025-02-12 09:34:21 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status DOWN (replication=false)
+2025-02-12 09:34:22 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-12 09:34:22 [RMI TCP Connection(41)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8761"]
+2025-02-12 09:34:22 [RMI TCP Connection(41)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2025-02-12 09:34:22 [RMI TCP Connection(41)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2025-02-12 09:34:22 [Eureka-Jersey3Client-Conn-Cleaner2] ERROR c.n.d.s.t.j.EurekaJersey3ClientImpl - Cannot clean connections
+java.lang.IllegalStateException: Client instance has been closed.
+	at org.glassfish.jersey.internal.guava.Preconditions.checkState(Preconditions.java:169)
+	at org.glassfish.jersey.client.JerseyClient.checkNotClosed(JerseyClient.java:248)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:363)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:54)
+	at com.netflix.discovery.shared.transport.jersey3.EurekaJersey3ClientImpl$ConnectionCleanerTask.run(EurekaJersey3ClientImpl.java:338)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-12 09:34:22 [RMI TCP Connection(41)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2025-02-12 09:34:22 [RMI TCP Connection(41)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...
+2025-02-12 09:34:22 [RMI TCP Connection(41)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2025-02-12 09:34:22 [RMI TCP Connection(41)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2025-02-12 09:34:22 [RMI TCP Connection(41)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-02-12 09:34:22 [RMI TCP Connection(41)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-02-12 15:35:13 [main] INFO  c.e.demo.EurekaServerApplication - Starting EurekaServerApplication using Java 21.0.5 with PID 3236 (C:\Users\2380230\git\repository8\EurekaServer\target\classes started by 2380230 in C:\Users\2380230\git\repository8\EurekaServer)
+2025-02-12 15:35:13 [main] DEBUG c.e.demo.EurekaServerApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 15:35:13 [main] INFO  c.e.demo.EurekaServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 15:35:16 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=78ac7b21-bec9-3f11-b9d5-811c6e056ee9
+2025-02-12 15:35:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8761 (http)
+2025-02-12 15:35:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2025-02-12 15:35:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 15:35:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 15:35:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 15:35:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3386 ms
+2025-02-12 15:35:19 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2025-02-12 15:35:19 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2025-02-12 15:35:19 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2025-02-12 15:35:19 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2025-02-12 15:35:19 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-12 15:35:21 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-12 15:35:21 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-02-12 15:35:21 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-02-12 15:35:21 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2025-02-12 15:35:21 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1739354721382 with initial instances count: 0
+2025-02-12 15:35:21 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2025-02-12 15:35:21 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2025-02-12 15:35:21 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2025-02-12 15:35:21 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2025-02-12 15:35:21 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2025-02-12 15:35:21 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2025-02-12 15:35:21 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2025-02-12 15:35:21 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2025-02-12 15:35:21 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2025-02-12 15:35:21 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12 15:35:21 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKASERVER with eureka with status UP
+2025-02-12 15:35:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2025-02-12 15:35:21 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2025-02-12 15:35:21 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2025-02-12 15:35:21 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2025-02-12 15:35:21 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2025-02-12 15:35:21 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2025-02-12 15:35:21 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2025-02-12 15:35:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8761 (http) with context path '/'
+2025-02-12 15:35:21 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2025-02-12 15:35:21 [main] INFO  c.e.demo.EurekaServerApplication - Started EurekaServerApplication in 9.053 seconds (process running for 11.591)
+2025-02-12 15:35:22 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 15:35:22 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 15:35:22 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-12 15:35:34 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 15:35:34 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 15:35:34 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 15:35:34 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 15:35:49 [http-nio-8761-exec-7] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: APIGATEWAY - LTIN560762.cts.com:apigateway:8084
+2025-02-12 15:35:49 [http-nio-8761-exec-7] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): APIGATEWAY - LTIN560762.cts.com:apigateway:8084
+2025-02-12 15:35:49 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=false)
+2025-02-12 15:35:49 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=false)
+2025-02-12 15:35:50 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=true)
+2025-02-12 15:35:54 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=false)
+2025-02-12 15:35:54 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=true)
+2025-02-12 15:36:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 15:37:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2025-02-12 15:38:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2025-02-12 15:39:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2025-02-12 15:40:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 15:41:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2025-02-12 15:42:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 15:43:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 15:44:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2025-02-12 15:45:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 15:46:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 15:47:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 15:48:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 15:49:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 16:06:22 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 8
+2025-02-12 16:06:22 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 960252ms
+2025-02-12 16:07:22 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2025-02-12 16:08:22 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 16:12:58 [http-nio-8761-exec-7] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x000x010xa80x010x000x010xa40x030x000xe1=0xe3 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:406)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-12 16:12:58 [http-nio-8761-exec-5] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x020x010xc00x010x000x010xbc0x030x020xdf*0x1aN0xb70x8f0xd9#0xbe0xc4H0xd50xf40x16seg(j40xcd0x1e0xd1gl0xaa0x7f50x940xb7A0xaf0x000x01|0x000x000x000x010x000x020x000x030x000x040x000x050x000x060x000x070x000x080x000x090x000x0a0x000x0b0x000x0c0x000x0d0x000x0e0x000x0f0x000x100x000x110x000x120x000x130x000x140x000x150x000x160x000x170x000x180x000x190x000x1a0x000x1b0x00/0x0000x0010x0020x0030x0040x0050x0060x0070x0080x0090x00:0x00;0x00<0x00=0x00>0x00?0x00@0x00A0x00B0x00C0x00D0x00E0x00F0x00g0x00h0x00i0x00j0x00k0x00l0x00m0x000x840x000x850x000x860x000x870x000x880x000x890x000x960x000x970x000x980x000x990x000x9a0x000x9b0x000x9c0x000x9d0x000x9e0x000x9f0x000xa00x000xa10x000xa20x000xa30x000xa40x000xa50x000xa60x000xa70x000xba0x000xbb0x000xbc0x000xbd0x000xbe0x000xbf0x000xc00x000xc10x000xc20x000xc30x000xc40x000xc50x130x010x130x020x130x030x130x040x130x050xc00x010xc00x020xc00x030xc00x040xc00x050xc00x060xc00x070xc00x080xc00x090xc00x0a0xc00x0b0xc00x0c0xc00x0d0xc00x0e0xc00x0f0xc00x100xc00x110xc00x120xc00x130xc00x140xc00x150xc00x160xc00x170xc00x180xc00x190xc0#0xc0$0xc0%0xc0&0xc0'0xc0(0xc0)0xc0*0xc0+0xc0,0xc0-0xc0.0xc0/0xc000xc010xc020xc0r0xc0s0xc0t0xc0u0xc0v0xc0w0xc0x0xc0y0xc0z0xc0{0xc0|0xc0}0xc0~0xc00x7f0xc00x800xc00x810xc00x820xc00x830xc00x840xc00x850xc00x860xc00x870xc00x880xc00x890xc00x8a0xc00x8b0xc00x8c0xc00x8d0xc00x8e0xc00x8f0xc00x900xc00x910xc00x920xc00x930xc00x940xc00x950xc00x960xc00x970xc00x980xc00x990xc00x9a0xc00x9b0xcc0xa80xcc0xa90xcc0xaa0xcc0xab0xcc0xac0xcc0xad0xcc0xae0x020x000x010x000x160x000x0a0x000x0a0x000x080x000x170x000x190x000x180x000x160x000x0b0x000x040x030x000x010x02...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:406)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-12 16:12:58 [http-nio-8761-exec-3] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x010xc00x010x000x010xbc0x030x010xa30xb60x1d0x000xfe0x1a0xa50x190xc50x95S0x070x110x100xa8lo0xb00xe2Ab0x88J(`D;0x0c10x09>0xa40x000x01|0x000x000x000x010x000x020x000x030x000x040x000x050x000x060x000x070x000x080x000x090x000x0a0x000x0b0x000x0c0x000x0d0x000x0e0x000x0f0x000x100x000x110x000x120x000x130x000x140x000x150x000x160x000x170x000x180x000x190x000x1a0x000x1b0x00/0x0000x0010x0020x0030x0040x0050x0060x0070x0080x0090x00:0x00;0x00<0x00=0x00>0x00?0x00@0x00A0x00B0x00C0x00D0x00E0x00F0x00g0x00h0x00i0x00j0x00k0x00l0x00m0x000x840x000x850x000x860x000x870x000x880x000x890x000x960x000x970x000x980x000x990x000x9a0x000x9b0x000x9c0x000x9d0x000x9e0x000x9f0x000xa00x000xa10x000xa20x000xa30x000xa40x000xa50x000xa60x000xa70x000xba0x000xbb0x000xbc0x000xbd0x000xbe0x000xbf0x000xc00x000xc10x000xc20x000xc30x000xc40x000xc50x130x010x130x020x130x030x130x040x130x050xc00x010xc00x020xc00x030xc00x040xc00x050xc00x060xc00x070xc00x080xc00x090xc00x0a0xc00x0b0xc00x0c0xc00x0d0xc00x0e0xc00x0f0xc00x100xc00x110xc00x120xc00x130xc00x140xc00x150xc00x160xc00x170xc00x180xc00x190xc0#0xc0$0xc0%0xc0&0xc0'0xc0(0xc0)0xc0*0xc0+0xc0,0xc0-0xc0.0xc0/0xc000xc010xc020xc0r0xc0s0xc0t0xc0u0xc0v0xc0w0xc0x0xc0y0xc0z0xc0{0xc0|0xc0}0xc0~0xc00x7f0xc00x800xc00x810xc00x820xc00x830xc00x840xc00x850xc00x860xc00x870xc00x880xc00x890xc00x8a0xc00x8b0xc00x8c0xc00x8d0xc00x8e0xc00x8f0xc00x900xc00x910xc00x920xc00x930xc00x940xc00x950xc00x960xc00x970xc00x980xc00x990xc00x9a0xc00x9b0xcc0xa80xcc0xa90xcc0xaa0xcc0xab0xcc0xac0xcc0xad0xcc0xae0x020x000x010x000x160x000x0a0x000x0a0x000x080x000x170x000x190x000x180x000x160x000x0b0x000x040x030x000x010x02...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:406)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-12 16:12:58 [http-nio-8761-exec-2] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x030x010xf40x010x000x010xf00x030x030xe6DJ0xf70x100x120x080xb400x12/+0x93@0x03 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:406)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-12 16:12:58 [http-nio-8761-exec-8] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x80>0x010x000x020x000x150x000x000x00 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:406)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-12 16:20:51 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 688785ms
+2025-02-12 17:06:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2654777ms
+2025-02-12 17:07:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2025-02-12 17:07:40 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 17:07:41 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 17:07:43 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 17:07:44 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 17:07:44 [http-nio-8761-exec-4] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 17:07:44 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 17:07:44 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 17:07:47 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 17:07:47 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 17:08:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 17:09:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 17:10:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 17:11:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 17:12:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2025-02-12 17:13:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 17:14:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 17:14:48 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 17:14:49 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 17:14:51 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 17:14:52 [http-nio-8761-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 17:14:52 [http-nio-8761-exec-3] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 17:14:52 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 17:14:52 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 17:14:55 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 17:14:55 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 17:15:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 17:16:05 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKASERVER with eureka with status DOWN
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12 17:16:36 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8761"]
+2025-02-12 17:16:36 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8761"]
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2025-02-12 17:16:36 [Eureka-Jersey3Client-Conn-Cleaner2] ERROR c.n.d.s.t.j.EurekaJersey3ClientImpl - Cannot clean connections
+java.lang.IllegalStateException: Client instance has been closed.
+	at org.glassfish.jersey.internal.guava.Preconditions.checkState(Preconditions.java:169)
+	at org.glassfish.jersey.client.JerseyClient.checkNotClosed(JerseyClient.java:248)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:363)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:54)
+	at com.netflix.discovery.shared.transport.jersey3.EurekaJersey3ClientImpl$ConnectionCleanerTask.run(EurekaJersey3ClientImpl.java:338)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-02-12 17:16:36 [RMI TCP Connection(63)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-02-12 17:54:24 [main] INFO  c.e.demo.EurekaServerApplication - Starting EurekaServerApplication using Java 21.0.5 with PID 17012 (C:\Users\2380230\git\repository8\EurekaServer\target\classes started by 2380230 in C:\Users\2380230\git\repository8\EurekaServer)
+2025-02-12 17:54:24 [main] DEBUG c.e.demo.EurekaServerApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 17:54:24 [main] INFO  c.e.demo.EurekaServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 17:54:29 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=78ac7b21-bec9-3f11-b9d5-811c6e056ee9
+2025-02-12 17:54:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8761 (http)
+2025-02-12 17:54:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2025-02-12 17:54:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 17:54:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 17:54:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 17:54:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5280 ms
+2025-02-12 17:54:32 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2025-02-12 17:54:32 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2025-02-12 17:54:33 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2025-02-12 17:54:33 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2025-02-12 17:54:33 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-12 17:54:35 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-12 17:54:35 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-02-12 17:54:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-02-12 17:54:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2025-02-12 17:54:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1739363075922 with initial instances count: 0
+2025-02-12 17:54:35 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2025-02-12 17:54:35 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2025-02-12 17:54:36 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2025-02-12 17:54:36 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2025-02-12 17:54:36 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2025-02-12 17:54:36 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2025-02-12 17:54:36 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2025-02-12 17:54:36 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2025-02-12 17:54:36 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2025-02-12 17:54:36 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12 17:54:36 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKASERVER with eureka with status UP
+2025-02-12 17:54:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2025-02-12 17:54:36 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2025-02-12 17:54:36 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2025-02-12 17:54:36 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2025-02-12 17:54:36 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2025-02-12 17:54:36 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2025-02-12 17:54:36 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2025-02-12 17:54:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8761 (http) with context path '/'
+2025-02-12 17:54:36 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2025-02-12 17:54:36 [main] INFO  c.e.demo.EurekaServerApplication - Started EurekaServerApplication in 12.824 seconds (process running for 14.889)
+2025-02-12 17:54:36 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 17:54:36 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 17:54:36 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-12 17:54:47 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=false)
+2025-02-12 17:54:47 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 17:54:47 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=true)
+2025-02-12 17:54:47 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 17:55:03 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: APIGATEWAY - LTIN560762.cts.com:apigateway:8084
+2025-02-12 17:55:03 [http-nio-8761-exec-8] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): APIGATEWAY - LTIN560762.cts.com:apigateway:8084
+2025-02-12 17:55:03 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=false)
+2025-02-12 17:55:04 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=true)
+2025-02-12 17:55:06 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 17:55:06 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 17:55:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 17:56:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2025-02-12 17:57:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2025-02-12 17:58:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2025-02-12 17:58:57 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 17:58:57 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 17:59:00 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 17:59:00 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 17:59:00 [http-nio-8761-exec-2] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 17:59:00 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 17:59:00 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 17:59:03 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 17:59:03 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 17:59:15 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=false)
+2025-02-12 17:59:16 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=true)
+2025-02-12 17:59:18 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 (replication=false)
+2025-02-12 17:59:19 [http-nio-8761-exec-10] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: BOOK-SERVICE/LTIN560762.cts.com:book-service:8086
+2025-02-12 17:59:19 [http-nio-8761-exec-10] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): BOOK-SERVICE - LTIN560762.cts.com:book-service:8086
+2025-02-12 17:59:19 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task BOOK-SERVICE/LTIN560762.cts.com:book-service:8086:Cancel@localhost failed with response code 404
+2025-02-12 17:59:19 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.PeerEurekaNode - BOOK-SERVICE/LTIN560762.cts.com:book-service:8086:Cancel@localhost: missing entry.
+2025-02-12 17:59:21 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=false)
+2025-02-12 17:59:21 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=true)
+2025-02-12 17:59:22 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=false)
+2025-02-12 17:59:23 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=true)
+2025-02-12 17:59:25 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 (replication=false)
+2025-02-12 17:59:26 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: BOOK-SERVICE/LTIN560762.cts.com:book-service:8086
+2025-02-12 17:59:26 [http-nio-8761-exec-8] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): BOOK-SERVICE - LTIN560762.cts.com:book-service:8086
+2025-02-12 17:59:26 [TaskBatchingWorker-target_localhost-0] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task BOOK-SERVICE/LTIN560762.cts.com:book-service:8086:Cancel@localhost failed with response code 404
+2025-02-12 17:59:26 [TaskBatchingWorker-target_localhost-0] WARN  c.n.eureka.cluster.PeerEurekaNode - BOOK-SERVICE/LTIN560762.cts.com:book-service:8086:Cancel@localhost: missing entry.
+2025-02-12 17:59:27 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=false)
+2025-02-12 17:59:28 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=true)
+2025-02-12 17:59:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:00:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2025-02-12 18:01:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:02:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2025-02-12 18:03:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:04:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2025-02-12 18:05:21 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:05:22 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:05:24 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:05:25 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:05:25 [http-nio-8761-exec-4] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:05:25 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:05:25 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:05:26 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:05:27 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:05:31 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:05:31 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:05:34 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:05:34 [http-nio-8761-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:05:34 [http-nio-8761-exec-5] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:05:34 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:05:34 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:05:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2025-02-12 18:05:36 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:05:36 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:05:37 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:05:38 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:05:40 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:05:41 [http-nio-8761-exec-7] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:05:41 [http-nio-8761-exec-7] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:05:41 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:05:41 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:05:42 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:05:43 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:05:46 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:05:46 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:05:46 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:05:46 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=true)
+2025-02-12 18:05:48 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:05:49 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:06:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:07:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:08:03 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:08:03 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:08:06 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:08:06 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:08:06 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:08:06 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:08:06 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:08:08 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:08:09 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:08:10 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:08:10 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:08:13 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:08:13 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:08:13 [http-nio-8761-exec-8] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:08:13 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:08:13 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:08:15 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:08:15 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:08:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:08:45 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:08:45 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:08:45 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Heartbeat@localhost failed with response code 409
+2025-02-12 18:08:45 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.PeerEurekaNode - Peer wants us to take the instance information from it, since the timestamp differs,Id : LTIN560762.cts.com:admin-service:8085 My Timestamp : 1739363895232, Peer's timestamp: 1739363925308
+2025-02-12 18:08:45 [TaskBatchingWorker-target_localhost-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:08:48 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:08:48 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:08:48 [http-nio-8761-exec-8] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:08:48 [TaskBatchingWorker-target_localhost-0] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:08:48 [TaskBatchingWorker-target_localhost-0] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:08:50 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:08:51 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:09:36 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 8
+2025-02-12 18:09:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:10:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:11:16 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:11:17 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:11:19 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:11:20 [http-nio-8761-exec-10] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:11:20 [http-nio-8761-exec-10] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:11:20 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:11:20 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:11:22 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:11:22 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:11:31 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:11:32 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:11:34 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:11:34 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:11:34 [http-nio-8761-exec-8] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:11:34 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:11:34 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:11:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2025-02-12 18:11:36 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:11:37 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:12:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:13:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:14:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:15:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2025-02-12 18:16:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2025-02-12 18:17:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:18:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2025-02-12 18:18:45 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:18:45 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:18:48 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:18:48 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:18:48 [http-nio-8761-exec-4] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:18:48 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:18:48 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:18:50 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:18:51 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:18:58 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:18:58 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:19:01 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:19:01 [http-nio-8761-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:19:01 [http-nio-8761-exec-1] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:19:01 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:19:01 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:19:03 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:19:03 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:19:05 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:19:05 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:19:08 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:19:08 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:19:08 [http-nio-8761-exec-8] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:19:08 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:19:08 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:19:10 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:19:11 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:19:21 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:19:22 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:19:24 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:19:25 [http-nio-8761-exec-6] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:19:25 [http-nio-8761-exec-6] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:19:25 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:19:25 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:19:26 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:19:27 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:19:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2025-02-12 18:19:46 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=false)
+2025-02-12 18:19:46 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=true)
+2025-02-12 18:19:49 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 (replication=false)
+2025-02-12 18:19:49 [http-nio-8761-exec-10] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: BOOK-SERVICE/LTIN560762.cts.com:book-service:8086
+2025-02-12 18:19:49 [http-nio-8761-exec-10] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): BOOK-SERVICE - LTIN560762.cts.com:book-service:8086
+2025-02-12 18:19:49 [TaskBatchingWorker-target_localhost-9] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task BOOK-SERVICE/LTIN560762.cts.com:book-service:8086:Cancel@localhost failed with response code 404
+2025-02-12 18:19:49 [TaskBatchingWorker-target_localhost-9] WARN  c.n.eureka.cluster.PeerEurekaNode - BOOK-SERVICE/LTIN560762.cts.com:book-service:8086:Cancel@localhost: missing entry.
+2025-02-12 18:19:51 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=false)
+2025-02-12 18:19:52 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=true)
+2025-02-12 18:19:52 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=false)
+2025-02-12 18:19:53 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=true)
+2025-02-12 18:19:55 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 (replication=false)
+2025-02-12 18:19:56 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: BOOK-SERVICE/LTIN560762.cts.com:book-service:8086
+2025-02-12 18:19:56 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): BOOK-SERVICE - LTIN560762.cts.com:book-service:8086
+2025-02-12 18:19:56 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task BOOK-SERVICE/LTIN560762.cts.com:book-service:8086:Cancel@localhost failed with response code 404
+2025-02-12 18:19:56 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode - BOOK-SERVICE/LTIN560762.cts.com:book-service:8086:Cancel@localhost: missing entry.
+2025-02-12 18:19:57 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=false)
+2025-02-12 18:19:58 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=true)
+2025-02-12 18:19:59 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=false)
+2025-02-12 18:19:59 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=true)
+2025-02-12 18:20:02 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 (replication=false)
+2025-02-12 18:20:02 [http-nio-8761-exec-10] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: BOOK-SERVICE/LTIN560762.cts.com:book-service:8086
+2025-02-12 18:20:02 [http-nio-8761-exec-10] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): BOOK-SERVICE - LTIN560762.cts.com:book-service:8086
+2025-02-12 18:20:02 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task BOOK-SERVICE/LTIN560762.cts.com:book-service:8086:Cancel@localhost failed with response code 404
+2025-02-12 18:20:02 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.PeerEurekaNode - BOOK-SERVICE/LTIN560762.cts.com:book-service:8086:Cancel@localhost: missing entry.
+2025-02-12 18:20:04 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=false)
+2025-02-12 18:20:05 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=true)
+2025-02-12 18:20:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:21:07 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:21:07 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=true)
+2025-02-12 18:21:10 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 (replication=false)
+2025-02-12 18:21:11 [http-nio-8761-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:21:11 [http-nio-8761-exec-3] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): ADMIN-SERVICE - LTIN560762.cts.com:admin-service:8085
+2025-02-12 18:21:11 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost failed with response code 404
+2025-02-12 18:21:11 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.PeerEurekaNode - ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085:Cancel@localhost: missing entry.
+2025-02-12 18:21:13 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:21:13 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:21:16 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 18:21:17 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=true)
+2025-02-12 18:21:19 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 (replication=false)
+2025-02-12 18:21:20 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/LTIN560762.cts.com:user-service:8087
+2025-02-12 18:21:20 [http-nio-8761-exec-2] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): USER-SERVICE - LTIN560762.cts.com:user-service:8087
+2025-02-12 18:21:20 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost failed with response code 404
+2025-02-12 18:21:20 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.PeerEurekaNode - USER-SERVICE/LTIN560762.cts.com:user-service:8087:Cancel@localhost: missing entry.
+2025-02-12 18:21:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:21:42 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 18:21:43 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 18:22:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2025-02-12 18:23:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2025-02-12 18:24:36 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 8
+2025-02-12 18:24:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2025-02-12 18:25:36 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2025-02-12 18:26:00 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 18:26:00 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=false)
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKASERVER with eureka with status DOWN
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12 18:26:00 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status DOWN (replication=false)
+2025-02-12 18:26:00 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status DOWN (replication=false)
+2025-02-12 18:26:00 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8761"]
+2025-02-12 18:26:00 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8761"]
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-02-12 18:26:00 [RMI TCP Connection(44)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-02-12 18:26:08 [main] INFO  c.e.demo.EurekaServerApplication - Starting EurekaServerApplication using Java 21.0.5 with PID 9600 (C:\Users\2380230\git\repository8\EurekaServer\target\classes started by 2380230 in C:\Users\2380230\git\repository8\EurekaServer)
+2025-02-12 18:26:08 [main] DEBUG c.e.demo.EurekaServerApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 18:26:08 [main] INFO  c.e.demo.EurekaServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 18:26:12 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=78ac7b21-bec9-3f11-b9d5-811c6e056ee9
+2025-02-12 18:26:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8761 (http)
+2025-02-12 18:26:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2025-02-12 18:26:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 18:26:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 18:26:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 18:26:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4005 ms
+2025-02-12 18:26:14 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2025-02-12 18:26:14 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2025-02-12 18:26:15 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2025-02-12 18:26:15 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2025-02-12 18:26:15 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-12 18:26:16 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-12 18:26:16 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-02-12 18:26:16 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-02-12 18:26:16 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2025-02-12 18:26:16 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1739364976936 with initial instances count: 0
+2025-02-12 18:26:17 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2025-02-12 18:26:17 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2025-02-12 18:26:17 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2025-02-12 18:26:17 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2025-02-12 18:26:17 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2025-02-12 18:26:17 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2025-02-12 18:26:17 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2025-02-12 18:26:17 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2025-02-12 18:26:17 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2025-02-12 18:26:17 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12 18:26:17 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKASERVER with eureka with status UP
+2025-02-12 18:26:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2025-02-12 18:26:17 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2025-02-12 18:26:17 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2025-02-12 18:26:17 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2025-02-12 18:26:17 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2025-02-12 18:26:17 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2025-02-12 18:26:17 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2025-02-12 18:26:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8761 (http) with context path '/'
+2025-02-12 18:26:17 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2025-02-12 18:26:17 [main] INFO  c.e.demo.EurekaServerApplication - Started EurekaServerApplication in 9.677 seconds (process running for 11.629)
+2025-02-12 18:26:18 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 18:26:18 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 18:26:18 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-12 18:26:20 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=false)
+2025-02-12 18:26:20 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=true)
+2025-02-12 18:26:31 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 18:26:32 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 18:26:32 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=false)
+2025-02-12 18:26:32 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:26:32 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=true)
+2025-02-12 18:26:32 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:27:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:28:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2025-02-12 18:29:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2025-02-12 18:30:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2025-02-12 18:31:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2025-02-12 18:32:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2025-02-12 18:33:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2025-02-12 18:34:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2025-02-12 18:35:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2025-02-12 18:36:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2025-02-12 18:37:17 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKASERVER with eureka with status DOWN
+2025-02-12 18:38:17 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status DOWN (replication=false)
+2025-02-12 18:38:17 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status DOWN (replication=false)
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12 18:38:17 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status DOWN (replication=false)
+2025-02-12 18:38:17 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8761"]
+2025-02-12 18:38:17 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8761"]
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2025-02-12 18:38:17 [Eureka-Jersey3Client-Conn-Cleaner2] ERROR c.n.d.s.t.j.EurekaJersey3ClientImpl - Cannot clean connections
+java.lang.IllegalStateException: Client instance has been closed.
+	at org.glassfish.jersey.internal.guava.Preconditions.checkState(Preconditions.java:169)
+	at org.glassfish.jersey.client.JerseyClient.checkNotClosed(JerseyClient.java:248)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:363)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:54)
+	at com.netflix.discovery.shared.transport.jersey3.EurekaJersey3ClientImpl$ConnectionCleanerTask.run(EurekaJersey3ClientImpl.java:338)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-02-12 18:38:17 [RMI TCP Connection(22)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-02-12 18:38:28 [main] INFO  c.e.demo.EurekaServerApplication - Starting EurekaServerApplication using Java 21.0.5 with PID 2876 (C:\Users\2380230\git\repository8\EurekaServer\target\classes started by 2380230 in C:\Users\2380230\git\repository8\EurekaServer)
+2025-02-12 18:38:28 [main] DEBUG c.e.demo.EurekaServerApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 18:38:28 [main] INFO  c.e.demo.EurekaServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 18:38:30 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=78ac7b21-bec9-3f11-b9d5-811c6e056ee9
+2025-02-12 18:38:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8761 (http)
+2025-02-12 18:38:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2025-02-12 18:38:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 18:38:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 18:38:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 18:38:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3188 ms
+2025-02-12 18:38:33 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2025-02-12 18:38:33 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2025-02-12 18:38:33 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2025-02-12 18:38:33 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2025-02-12 18:38:33 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-12 18:38:35 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-12 18:38:35 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-02-12 18:38:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-02-12 18:38:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2025-02-12 18:38:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1739365715081 with initial instances count: 0
+2025-02-12 18:38:35 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2025-02-12 18:38:35 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2025-02-12 18:38:35 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2025-02-12 18:38:35 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2025-02-12 18:38:35 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2025-02-12 18:38:35 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2025-02-12 18:38:35 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2025-02-12 18:38:35 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2025-02-12 18:38:35 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2025-02-12 18:38:35 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12 18:38:35 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKASERVER with eureka with status UP
+2025-02-12 18:38:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2025-02-12 18:38:35 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2025-02-12 18:38:35 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2025-02-12 18:38:35 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2025-02-12 18:38:35 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2025-02-12 18:38:35 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2025-02-12 18:38:35 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2025-02-12 18:38:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8761 (http) with context path '/'
+2025-02-12 18:38:35 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2025-02-12 18:38:35 [main] INFO  c.e.demo.EurekaServerApplication - Started EurekaServerApplication in 8.068 seconds (process running for 10.085)
+2025-02-12 18:38:36 [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 18:38:36 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 18:38:36 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-12 18:38:36 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=false)
+2025-02-12 18:38:37 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance APIGATEWAY/LTIN560762.cts.com:apigateway:8084 with status UP (replication=true)
+2025-02-12 18:38:49 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=false)
+2025-02-12 18:38:49 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=false)
+2025-02-12 18:38:49 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOK-SERVICE/LTIN560762.cts.com:book-service:8086 with status UP (replication=true)
+2025-02-12 18:38:49 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance ADMIN-SERVICE/LTIN560762.cts.com:admin-service:8085 with status UP (replication=true)
+2025-02-12 18:38:51 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=false)
+2025-02-12 18:38:51 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance USER-SERVICE/LTIN560762.cts.com:user-service:8087 with status UP (replication=true)
+2025-02-12 18:39:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:40:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:41:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:42:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:43:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:44:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:45:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:46:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:47:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:48:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:49:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2025-02-12 18:50:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:51:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:52:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:53:35 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 8
+2025-02-12 18:53:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:54:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:55:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:56:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2025-02-12 18:57:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:58:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2025-02-12 18:59:35 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
